@@ -17,19 +17,19 @@ Footer.innerHTML=`
             <h2>Serviços</h2>
             <ul>
                 <li>
-                    <a href="mailto:contato@vaptvupt.com">Gestão de Empresa</a>
+                    <a href="#Services">Gestão de Empresa</a>
                 </li>
                 <li>
-                    <a href="mailto:contato@vaptvupt.com">Social Midia</a>
+                    <a href="#Services">Social Midia</a>
                 </li>
                 <li>
-                    <a href="mailto:contato@vaptvupt.com">Landing Page</a>
+                    <a href="#Services">Landing Page</a>
                 </li>
                 <li>
-                    <a href="mailto:contato@vaptvupt.com">E-commerce</a>
+                    <a href="#Services">E-commerce</a>
                 </li>
                 <li>
-                    <a href="mailto:contato@vaptvupt.com">inteligência Artificial</a>
+                    <a href="#Services">inteligência Artificial</a>
                 </li>
             </ul>
         </div>
