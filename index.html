@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criative Vapt Vupt</title>
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div id="Menu"></div>
+    </header>
+    <main>
+        <div id="Full"></div>
+        <div id="Services"></div>
+        <div id="Ai"></div>
+        <div id="Ebook"></div>
+        <div id="Galery"></div>
+        <div id="About"></div>
+        <div id="Reviews"></div>
+        <div id="Contato"></div>
+        <div id="Planos"></div>
+                
+    </main>
+
+    <footer>
+        <div id="Footer"></div>
+    </footer>
+
+
+</body>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/full.js"></script>
+    <script src="assets/js/services.js"></script>
+    <script src="assets/js/Ai.js"></script>
+    <script src="assets/js/ebook.js"></script>
+    <script src="assets/js/galery.js"></script>
+    <script src="assets/js/reviews.js"></script>
+    <script src="assets/js/about.js"></script>
+    <script src="assets/js/planos.js"></script>
+    <script src="assets/js/contato.js"></script>
+    <script src="assets/js/footer.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>  
+        var swiper = new Swiper(".mySwiper", {
+         
+          spaceBetween: 30,
+          autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+            },
+          loop: true,
+    
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,  
+          },breakpoints: {
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 35,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 5,
+              },
+            },
+        });
+        var swiper = new Swiper(".tecnologia", {
+          loop: true,
+         spaceBetween: 30,
+        //  autoplay: {
+        //      delay: 1500,
+        //      disableOnInteraction: false,
+        //    },
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,  
+         },breakpoints: {
+             320: {
+               slidesPerView: 1,
+               spaceBetween: 35,
+             },
+             768: {
+               slidesPerView: 2,
+               spaceBetween: 5,
+             },
+             1024: {
+               slidesPerView: 3,
+               spaceBetween: 5,
+             },
+           },
+       });
+      </script>
+    
+</html>

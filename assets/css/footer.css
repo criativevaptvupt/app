@@ -1,0 +1,40 @@
+#Footer{
+    background-image: url(../img/full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.footer .container {
+    display: block;
+}
+.footer .col-content img {
+    width: 100%;
+}
+.footer .col-content .social img {
+    width: 25px;
+}
+
+
+@media (min-width:768px) {
+    .footer{
+        display: block;
+    }
+    .footer .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer .container .col-content {
+        margin: 0px 50px;
+    }
+    .footer .col-content img {
+        width: 50%;
+    }
+    .footer .col-content .social img {
+        width: 25px;
+    }
+    .footer p{
+        text-align: center;
+    }
+}
