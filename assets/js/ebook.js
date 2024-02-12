@@ -11,7 +11,7 @@ Ebook.innerHTML=`
         <p>Aprenda a fazer a gestão do seu</br> negócio sem precisar de ajuda.</p>
 
         
-        <a class="btn primary" href="#Contato">
+        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+fazer+meu+pedido+do+ebook+completo+de+gestao+do+meu+negocio/" target="_blank">
             Faça seu pedido
         </a>
 

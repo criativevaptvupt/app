@@ -10,7 +10,7 @@ About.innerHTML=`
             <img src="./assets/img/criative.png" alt="" />
         </div>
 
-        <div class="col-content">
+        <div class="col-content-c">
             <span class="title"></span>
             <h2>Sobre  nosso objetivo</h2>
             </br>
@@ -28,7 +28,7 @@ About.innerHTML=`
                 sempre conectados e por dentro de tudo que acontece dentro da sua empresa.
             </p>
             </br>
-            <a class="btn primary" href="#Contato">
+            <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+Saber+mais+a+empresa+Criative+VaptVupt/" target="_blank">
                 Veja Mais
             </a>
         </div>

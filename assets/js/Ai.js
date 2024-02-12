@@ -8,10 +8,10 @@ Ai.innerHTML=`
         
         <h2>Inteligencia artificial a </br> favor do seu crescimento</h2>
         
-        <p>tenha faclidade na comunicação com </br> seus clientes e saia na frente.</p>
+        <p>tenha facilidade na comunicação com </br> seus clientes e saia na frente.</p>
 
         
-        <a class="btn primary" href="#Contato">
+        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+Saber+mais+Sobre+AI+pro+crescimento+do+meu+negocio/" target="_blank">
             Veja Mais
         </a>
     </div>

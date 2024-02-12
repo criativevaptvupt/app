@@ -6,20 +6,20 @@ Services.innerHTML=`
         <div class="col-content">
 
             <span class="title"></span>
-            
-            <h2>Agora ficou fácil, mantenha seus clientes por dentro de tudo</h2>
-            <p>
-                Profissionais focados e qualificados no seu crescimento 
-            </p>
-            <ul>
-                <li>VAPT em várias resoluções</li>
-                <li>Pacotes de recursos exclusivos</li>
-                <li>Criação personalizada</li>
-            </ul>
-            <a class="btn primary" href="#Contato">
-                Veja Mais
-            </a>
-
+            <div class="t">
+                <h2>Agora ficou fácil, mantenha seus clientes por dentro de tudo</h2>
+                <p>
+                    Profissionais focados e qualificados no seu crescimento 
+                </p>
+                <ul>
+                    <li>VAPT em várias resoluções</li>
+                    <li>Pacotes de recursos exclusivos</li>
+                    <li>Criação personalizada</li>
+                </ul>
+                <a class="btn primary" href="#Contato">
+                    Veja Mais
+                </a>
+            </div>
         </div>
 
         <div class="col-content-c">

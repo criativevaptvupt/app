@@ -8,12 +8,7 @@
     justify-content: center;
     display: flex;
 }
-    #Full h3 {
-        margin: 0px;
-    }
-    #Full h1 {
-        margin: 0px;
-    }
+    
 
     #Full .content-text {
         margin: 90px 0px 0px 0px;
@@ -204,10 +199,15 @@
     }
     
     #Services {
-        background-color: #C9DDFB;
         min-height: 100vh;
         align-items: center;
         display: flex;
+    }
+    #Services span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 20%;
+        z-index: 0;
     }
     #Services .container {
         display: flex;
@@ -217,6 +217,9 @@
         width: 40%;
         padding: 30px;
        
+    }
+    #Services .container .col-content .t {
+        z-index: 1;
     }
     #Services .container .col-content-c {
         grid-template-columns: repeat(2, 45%);
@@ -245,6 +248,8 @@
     }
     
 
+
+
     #Ai {
         background-image: url(../img/ai.png);
         min-height: 430px;
@@ -255,6 +260,9 @@
         justify-content: center;
         display: flex;
     }
+
+
+
 
     #Ebook{
         background-image: url(../img/ebook.png);
@@ -285,10 +293,18 @@
         display: block;
     }
 
+
+
     .galery {
         padding: 50px;
         display: block;
         text-align: center;
+    }
+    .galery span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 60%;
+        z-index: -1;
     }
 
     .tempo {
@@ -296,26 +312,77 @@
         display: block;
         text-align: center;
     }
+    .tempo span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 20%;
+        z-index: -1;
+    }
+    
+    #Planos {
+        padding: 50px;
+        display: block;
+        text-align: center;
+    }
+    #Planos span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 50%;
+        z-index: -1;
+    }
+    #Planos .col-content-c {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    #Planos .card {
+        background-color: #D9D9D9;
+        padding: 30px 50px;
+    }
+    #Planos .card p {
+        max-width: 190px;
+    }
+    #Planos .valor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0054D2;
+    }
+    #Planos .valor h5 {
+        margin-right: 10px;
+    }
+    #Planos .valor h2 {
+        font-weight: bolder;
+    }
+
+
 
 
     #About .container {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 50px;
+        padding: 50px 150px;
     }
     #About .container .col-content {
         margin: 0px 50px;
+        width: 50%;
     }
-    #About .container .col-content{
+    #About .container .col-content img{
+        width: 80%;
+    }
+    #About .container .col-content-c{
         padding: 0px 10px;
+        width: 50%;
     }
     #About span.title::before {
         width: 300px;
         height: 200px;
-        left: 50%;
-       
+        left: 60%;
+        z-index: -1;
     }
+
+
 
     #Reviews {
         padding: 50px 60px;
