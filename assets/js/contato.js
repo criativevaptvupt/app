@@ -25,8 +25,8 @@ Contato.innerHTML=`
                     </p>
                 </span>
                 <div class="social">
-                    <a href="mailto:contato@vaptvupt.com"><img src="./assets/img/face.png" alt="" /></a>
-                    <a href="mailto:contato@vaptvupt.com"><img src="./assets/img/instagram.png" alt="" /></a>
+                    <a href="https://www.facebook.com/people/Criativevapt-vupt/61554934358309/"><img src="./assets/img/face.png" alt="" /></a>
+                    <a href="https://www.instagram.com/criative.vaptvupt/"><img src="./assets/img/instagram.png" alt="" /></a>
                 </div>
             </div>
 

@@ -102,6 +102,12 @@
         display: block;
         text-align: center;
     }
+    .galery span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        z-index: -1;
+    }
     #Galery .card-header img {
         width: 100%;
         border-radius: 15px;
@@ -111,6 +117,42 @@
         padding: 50px 20px;
         display: block;
         text-align: center;
+    }
+
+    #Planos {
+        padding: 50px 20px;
+        display: block;
+        text-align: center;
+    }
+    #Planos span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        z-index: -1;
+    }
+    #Planos .col-content-c {
+        padding: 0px;
+        display: block;
+        justify-content: center;
+    }
+    #Planos .card {
+        background-color: #D9D9D9;
+        padding: 30px 50px;
+    }
+    #Planos .card p {
+        max-width: 230px;
+    }
+    #Planos .valor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0054D2;
+    }
+    #Planos .valor h5 {
+        margin-right: 10px;
+    }
+    #Planos .valor h2 {
+        font-weight: bolder;
     }
 
     #About .container {
@@ -126,13 +168,19 @@
     #About span.title::before {
         width: 300px;
         height: 200px;
-        left: 10%;
-       
+        left: 5%;
+        z-index: -1;
     }
 
     #Reviews {
         display: block;
         text-align: center;
+    }
+    #Reviews span.title::before {
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        z-index: -1;
     }
     .comentarios {
         display: block;
