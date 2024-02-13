@@ -27,7 +27,7 @@ Services.innerHTML=`
                 <div class="col">
                     <div class="card">
                         <h6>Landing-page</h6>
-                        <p>Páginas inteligentes que executam e concluem tarefas na medida do seu negócio.</p>
+                        <p>Páginas focadas em converter visitantes em oportunidades de venda.</p>
                         <a href="#Contato">Mais</a>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ Services.innerHTML=`
                 <div class="col">
                     <div class="card">
                         <h6>E-commerce</h6>
-                        <p>Páginas inteligentes que executam e concluem tarefas na medida do seu negócio.</p>
+                        <p>Comércio eletrônico, é uma modalidade de negócio em que as transações comerciais são realizadas totalmente online.</p>
                         <a href="#Contato">Mais</a>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ Services.innerHTML=`
                 <div class="col">
                     <div class="card">
                         <h6>Social média</h6>
-                        <p>Criamos e publicamos posts, também planeja, estuda e desenvolve uma estratégia de marketing digital.</p>
+                        <p>Responsável pela gestão dos perfis de redes sociais, lidando com a atualização e gestão.</p>
                         <a href="#Contato">Mais</a>
                     </div>
                 </div>

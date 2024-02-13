@@ -306,6 +306,13 @@
         left: 60%;
         z-index: -1;
     }
+    #Galery .card-header img {
+        width: -webkit-fill-available;
+        border-radius: 15px;
+    }
+    #Galery .card-body {
+        text-align: left;
+    }
 
     .tempo {
         padding: 50px;
