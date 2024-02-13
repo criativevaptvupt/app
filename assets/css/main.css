@@ -102,6 +102,10 @@
         display: block;
         text-align: center;
     }
+    #Galery .card-header img {
+        width: 100%;
+        border-radius: 15px;
+    }
 
     .tempo {
         padding: 50px 20px;
