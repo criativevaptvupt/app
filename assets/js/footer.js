@@ -3,9 +3,9 @@ const Footer = document.getElementById('Footer')
 Footer.innerHTML=`
 <div class="footer">
     <div class="container">
-        <div class="col-content">
+        <div class="text-center">
             
-            <img src="./assets/img/logo.png" alt="" />
+            <img src="./assets/img/logo-white.png" alt="" />
             </br>
             <div class="social">
                 <a href="https://www.facebook.com/people/Criativevapt-vupt/61554934358309/"><img src="./assets/img/face.png" alt="" /></a>
@@ -13,60 +13,51 @@ Footer.innerHTML=`
             </div>
         </div>   
 
-        <div class="col-content">
-            <h2>Serviços</h2>
-            <ul>
-                <li>
-                    <a href="#Services">Gestão de Empresa</a>
-                </li>
-                <li>
-                    <a href="#Services">Social Midia</a>
-                </li>
-                <li>
-                    <a href="#Services">Landing Page</a>
-                </li>
-                <li>
-                    <a href="#Services">E-commerce</a>
-                </li>
-                <li>
-                    <a href="#Services">inteligência Artificial</a>
-                </li>
-            </ul>
+        <div class="m-5">
+            
+        <ul class="nav footer">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produtos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="landingpage.html">Landing page</a></li>
+                <li><a class="dropdown-item" href="loja.html">Loja Online</a></li>
+                <li><a class="dropdown-item" href="social.html">Social Midia</a></li>
+                <li><a class="dropdown-item" href="#">Suporte</a></li>
+              </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="planos.html">Planos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn primary" href="contato.html">
+              Contato
+          </a>
+        </li>
+
+      </ul>
         </div>
-        <div class="col-content">
-            <h2>Veja Mais</h2>
-            <ul>
-                <li>
-                    <a href="#Full">Inicio</a>
-                </li>
-                <li>
-                    <a href="#Services">Serviços</a>
-                </li>
-                <li>
-                    <a href="#Ai">Inteligência Artificial</a>
-                </li>
-                <li>
-                    <a href="#Ebook">E-book</a>
-                </li>
-                <li>
-                    <a href="#Galery">Galeria</a>
-                </li>
-                <li>
-                    <a href="#About">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="#Reviews">Indicações</a>
-                </li>
-                <li>
-                    <a href="#Contato">Contato</a>
-                </li>
-            </ul>
-        </div>
-    
+    <p class="text-center">Todos os direitos reservados &copy; Criative Vapt Vupt 2024.</p>
+
     </div> 
 
-    <p>Todos os direitos reservados &copy; Criative Vapt Vupt 2024.</p>
-
+    
 </div>
 
 `

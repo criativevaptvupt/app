@@ -2,20 +2,18 @@ const Contato = document.getElementById('Contato')
 
 Contato.innerHTML=`
 
-<div class="contact">
+<div class="contact  pt-5">
     <div class="container">
 
-        <div class="col-content">
-            <span class="title"></span>
+        <div class="col">
+            <div class="social">
+                <a href="https://www.facebook.com/people/Criativevapt-vupt/61554934358309/"><img src="./assets/img/face.png" alt="" /></a>
+                <a href="https://www.instagram.com/criative.vaptvupt/"><img src="./assets/img/instagram.png" alt="" /></a>
+            </div>
             <h2>
                 Começe algo Novo 
-            </h2>
-            <h2>Entre em contato agora mesmo.</h2>
-            
+            </h2>                        
             <p>Para mais informações ou para agendar uma </br> sessão de criação de VAPT Vupt.</p>
-            
-
-            </br>
             </br>
             <div class="content-text">
                 <a href="mailto:contato@vaptvupt.com">contato@vaptvupt.com</a>
@@ -24,15 +22,10 @@ Contato.innerHTML=`
                         CNPJ: 45.056.613/0001-89 - 45056613000189
                     </p>
                 </span>
-                <div class="social">
-                    <a href="https://www.facebook.com/people/Criativevapt-vupt/61554934358309/"><img src="./assets/img/face.png" alt="" /></a>
-                    <a href="https://www.instagram.com/criative.vaptvupt/"><img src="./assets/img/instagram.png" alt="" /></a>
-                </div>
             </div>
-
         </div>
 
-        <div class="col-content">
+        <div class="col">
             <div class="form">
                 <form action="#" method="get" onsubmit="abrirWhatsapp()">
                     <input type="text" name="nome" id="nome" placeholder="Nome" required /><br />

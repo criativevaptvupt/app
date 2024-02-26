@@ -1,9 +1,22 @@
-@media (max-width:400px) {
-    
+  /*#Menu{
+    Add the blur effect 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}*/
+nav.navbar.fixed-top.navbar-expand-lg{
+    background-color: white;
 }
-@media (max-width:768px) {
-    
+.nav {
+  flex-wrap: wrap;
 }
-@media (max-width:1024px) {
-    
+
+a.nav-link {
+    color: black;
+}
+
+
+@media (min-width:768px) {
+   .nav {
+    flex-wrap: inherit !important;
+} 
 }

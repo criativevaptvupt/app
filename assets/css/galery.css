@@ -1,0 +1,44 @@
+#Galery .content-title {
+    text-align: center;
+}
+#Galery .card{
+    padding: 20px 20px;
+    margin: 10px 15px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 5px 10px 18px #c9c9c9;
+    justify-content: center;
+    max-height: 95%;
+}
+#Galery .card-body {
+    padding: 25px 0px;
+}
+#Galery .card-header {
+    padding: 0px;
+}
+#Galery .card-header img {
+    width: 100%;
+    border-radius: 15px;
+}
+.galery {
+    display: block;
+    text-align: center;
+}
+#Galery .container {
+    padding: 100px 60px 50px 60px;
+}
+.galery span.title::before {
+    width: 300px;
+    height: 200px;
+    left: 60%;
+    z-index: -1;
+}
+#Galery .card-header img {
+    width: -webkit-fill-available;
+    border-radius: 15px;
+}
+#Galery .card-body {
+    text-align: left;
+}
+

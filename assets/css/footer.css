@@ -1,18 +1,26 @@
 #Footer{
-    background-image: url(../img/full.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 50px;
 }
 .footer .container {
     display: block;
+    
+}
+.footer  ul.nav.footer {
+    display: block;
+}
+.footer  a.nav-link {
+    color: white;
+    text-align: center;
 }
 .footer .col-content img {
     width: 100%;
 }
 .footer .col-content .social img {
-    width: 25px;
+    width: 25px !important;
 }
 
 
@@ -21,10 +29,13 @@
         display: block;
     }
     .footer .container {
-        display: flex;
         justify-content: space-around;
         align-items: center;
     }
+    .footer  ul.nav.footer {
+        display: flex;
+    }
+    
     .footer .container .col-content {
         margin: 0px 50px;
     }

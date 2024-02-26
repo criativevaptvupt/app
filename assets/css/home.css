@@ -1,0 +1,150 @@
+/* sessão : .topo */
+.full {
+    background-image: url(../img/full.png);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+#Full .content-text {
+    margin: 90px 0px 0px 0px;
+}
+#Full .content-text p {
+    font-size: 14px;
+}
+#Full .content-footer {
+    margin: 105px 0px 0px 0px;
+}
+
+
+/* sessão : .services */
+.services {
+    background-image: url(../img/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.services .content-title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-services {
+    display: block;
+}
+.content-services .card-active {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #77E7FE, #FE7CF2);
+    padding: 30px 20px;
+    margin: 10px 15px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 5px 10px 18px #c9c9c9;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+.card {
+    padding: 30px 20px;
+    margin: 10px 15px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 5px 10px 18px #c9c9c9;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.sucess.container-fluid .col img {
+    width: 90%;
+}
+.container-fluid .col img {
+    width: 90%;
+}
+
+
+.col.sucess {
+    padding: 50px;
+}
+
+.lojaOnline.container-fluid {
+    background-color: #C9DDFB;
+}
+.social.container-fluid {
+    background-color: #E5E5E5;}
+
+@media (min-width:768px) {
+    /* sessão : .topo */
+    .full {
+        background-image: url(../img/full.png);
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+    }
+    #Full .content-text p {
+        font-size: 16px;
+    }
+    #Full .content-footer p {
+        font-size: 19px;
+    }
+
+
+    /* sessão : .services */
+    .services {
+        background-image: url(../img/services.png);
+        min-height: 80vh;
+        text-align: start;
+        display: flex;
+    }
+    .content-services {
+        display: flex;
+    }
+
+    /* sessão : .sucess */
+    .sucess.container-fluid {
+        display: flex;
+    }
+    .col.sucess {
+        padding: 150px 50px;
+        
+    }
+    .sucess.container-fluid .col img {
+        width: 90%;
+    }
+
+    /* sessão : .criative */
+    .criate.container-fluid {
+        display: flex;
+    }
+    .criate.container-fluid .col img {
+        width: 100%;
+    }
+
+    /* sessão : .social */
+    .social.container-fluid {
+        display: flex;
+        background-color: #E5E5E5;
+    }
+    .social.container-fluid .col img {
+        width: 95%;
+    }
+    /* sessão : .LojaOnline */
+    .lojaOnline.container-fluid {
+        display: flex;
+        background-color: #C9DDFB;
+    }
+    .lojaOnline.container-fluid .col img {
+        width: 95%;
+    }
+    
+
+}

@@ -1,19 +1,26 @@
 const Planos = document.getElementById('Planos')
 
 Planos.innerHTML=`
-
+<div class="sucess container-fluid  pt-5" style="background:#C9DDFB;">
+    <div class="col sucess">
+        <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
+        </br>
+        <p>
+            Profissionais qualificados e focados </br> no seu crescimento  do seu negócio.
+        </p>
+        
+    </div>
+    <div class="col img">
+        <img src="./assets/img/sucess.png" alt="" />
+    </div>
+</div>
 <div class="container">
         <div class="col-content">
-
             <span class="title"></span>
-            
             <h2>tenha mais vantagens com nossos planos.</h2>
             <p>
-                Qualidade dedicção e excelencia.
+                Qualidade dedicação e excelencia.
             </p>
-            
-            
-
         </div>
 
         <div class="col-content-c">

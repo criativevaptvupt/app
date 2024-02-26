@@ -1,14 +1,24 @@
 const Galery = document.getElementById('Galery')
 
 Galery.innerHTML=`
+<div class="sucess container-fluid pt-5" style="background:#C9DDFB;">
+    <div class="col sucess">
+        <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
+        </br>
+        <p>
+            Profissionais qualificados e focados </br> no seu crescimento  do seu negócio.
+        </p>
+        
+    </div>
+    <div class="col img">
+        <img src="./assets/img/sucess.png" alt="" />
+    </div>
+</div>
 <div class="container">
     <div class="galery">
         <span class="title"></span>
-        
         <h2>Veja produtos feitos por nossos profissionais.</h2>
-        
-        <p>Qualidade dedicção e excelencia.</p>
-        
+        <p>Qualidade dedicação e excelencia.</p>
         <div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -134,18 +144,22 @@ Galery.innerHTML=`
             </div>
         </div>
 
-        <a class="btn primary" href="#Contato">
-            Veja Mais
+        
+    </div>
+    
+</div>
+<div class="social container-fluid">
+    
+    <div class="col sucess">
+        <h2>Pare de perder tempo e dinheiro com tecnologia. </br>Vamos começar</h2>
+        </br>
+        
+        <a class="btn primary" href="contato.html">
+            Ver Mais
         </a>
     </div>
-    <div class="tempo">
-        <span class="title"></span>
-            
-        <h2>Pare de perder tempo e dinheiro com tecnologia. </br>Vamos começar</h2>
-
-        <a class="btn primary" href="#Contato">
-            Veja Mais
-        </a>
+    <div class="col img">
+        <img src="./assets/img/ai.png" alt="" />
     </div>
 </div>
 
