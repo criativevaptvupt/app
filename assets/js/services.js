@@ -9,7 +9,7 @@ Services.innerHTML=`
             <div class="t">
                 <h2>Agora ficou fácil, mantenha seus clientes por dentro de tudo</h2>
                 <p>
-                    Profissionais focados e qualificados no seu crescimento 
+                    Profissionais focados e qualificados!
                 </p>
                 <ul>
                     <li>VAPT em várias resoluções</li>

@@ -11,7 +11,7 @@ Planos.innerHTML=`
         
     </div>
     <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
+        <img src="./assets/img/feedback.png" alt="" />
     </div>
 </div>
 <div class="container">
@@ -25,7 +25,7 @@ Planos.innerHTML=`
 
         <div class="col-content-c">
             <div class="col">
-                <div class="card">
+                <div class="card mb-5">
                     <h3>Social Midia</h3>
                     
                     <p>
@@ -56,7 +56,7 @@ Planos.innerHTML=`
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card mb-5">
                     <h3>Landind Page</h3>
 
                     <p>

@@ -2,12 +2,12 @@ const Loja = document.getElementById('Loja')
 
 Loja.innerHTML=`
 
-<div class="sucess container-fluid pt-5" style="background:#C9DDFB;">
+<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
     <div class="col sucess">
         <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
         </br>
         <p>
-            Profissionais qualificados e focados </br> no seu crescimento  do seu negócio.
+            Profissionais qualificados e focados no crescimento do seu negócio.
         </p>
         
     </div>
@@ -61,7 +61,7 @@ Loja.innerHTML=`
         </div>
     </div>
 </div>
-<div class="criate container-fluid">
+<div class="criate container-fluid align-items-center">
     <div class="col img">
         <img src="./assets/img/criative-vaptvupt.png" alt="" />
     </div>
@@ -76,7 +76,7 @@ Loja.innerHTML=`
          aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
     </div>
 </div>
-<div class="social container-fluid">
+<div class="social container-fluid align-items-center">
     
     <div class="col sucess">
         <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>

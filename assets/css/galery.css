@@ -26,7 +26,7 @@
     text-align: center;
 }
 #Galery .container {
-    padding: 100px 60px 50px 60px;
+    padding: 100px 30px 50px 30px;
 }
 .galery span.title::before {
     width: 300px;

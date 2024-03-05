@@ -12,6 +12,22 @@ body {
 .container-fluid {
     display: block;
 }
+.col.sucess {
+    padding: 50px 20px;
+}
+.col.img {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid .col img {
+    width: 100%;
+}
+
+.sucess.container-fluid .col img {
+    width: 100%;
+}
+
 
 h1{
     font-family: 'Lemon', serif;
@@ -93,6 +109,11 @@ span.title::before {
 
 
 @media (min-width:768px) {
+    .container-fluid .col img {
+        width: 90%;
+    }
+
+    
     span.title::before {
         width: 300px;
         height: 200px;
@@ -128,6 +149,7 @@ span.title::before {
     .col.img {
         display: flex;
         align-items: end;
+        justify-content: center;
     }
     
 }

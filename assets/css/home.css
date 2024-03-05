@@ -7,7 +7,8 @@
     background-position: right;
     text-align: center;
     justify-content: center;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 #Full .content-text {
@@ -60,17 +61,7 @@
     height: 100%;
     justify-content: space-evenly;
 }
-.sucess.container-fluid .col img {
-    width: 90%;
-}
-.container-fluid .col img {
-    width: 90%;
-}
 
-
-.col.sucess {
-    padding: 50px;
-}
 
 .lojaOnline.container-fluid {
     background-color: #C9DDFB;
@@ -79,6 +70,7 @@
     background-color: #E5E5E5;}
 
 @media (min-width:768px) {
+    
     /* sessão : .topo */
     .full {
         background-image: url(../img/full.png);
@@ -117,16 +109,14 @@
         padding: 150px 50px;
         
     }
-    .sucess.container-fluid .col img {
-        width: 90%;
-    }
+    
 
     /* sessão : .criative */
     .criate.container-fluid {
         display: flex;
     }
     .criate.container-fluid .col img {
-        width: 100%;
+        width: 70%;
     }
 
     /* sessão : .social */
@@ -135,7 +125,7 @@
         background-color: #E5E5E5;
     }
     .social.container-fluid .col img {
-        width: 95%;
+        width: 70%;
     }
     /* sessão : .LojaOnline */
     .lojaOnline.container-fluid {
@@ -143,7 +133,7 @@
         background-color: #C9DDFB;
     }
     .lojaOnline.container-fluid .col img {
-        width: 95%;
+        width: 70%;
     }
     
 
