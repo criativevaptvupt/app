@@ -1,7 +1,7 @@
 /* sessão : .topo */
 .full {
     background-image: url(../img/full.png);
-    min-height: 90vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
