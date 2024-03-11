@@ -19,11 +19,13 @@ Galery.innerHTML=`
         <span class="title"></span>
         <h2>Veja produtos feitos por nossos profissionais.</h2>
         <p>Qualidade dedicação e excelencia.</p>
-        <div>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
+        <div class="produtos">
+            <div class="container" hidden>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Identidade visual.</p>
+                    </div>
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/Social-Midia/FEED-ESQUINA.png" alt="" />
@@ -36,8 +38,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/Social-Midia/feedDoloresAtelie.png" alt="" />
@@ -49,8 +50,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/Social-Midia/calçadoOlympikus.png" alt="" />
@@ -62,8 +62,60 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Social Midia.</p>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/FEED-ESQUINA.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para loja fisica, 
+                                    loja de roupas e equipamentos variados, 
+                                    Esquina das Modas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/feedDoloresAtelie.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para Ateliê fisico, 
+                                loja de roupas e uniformes sob medida Esportivos,  Dolores Ateliê.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/calçadoOlympikus.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para loja fisica, 
+                                loja de roupas e calçados,  O Calçadão.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Landing Page.</p>
+                    </div>
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/landingpage/intellecTI.png" alt="" />
@@ -74,8 +126,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/landingpage/Pratiensino.png" alt="" />
@@ -86,8 +137,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/landingpage/priantieassociados.png" alt="" />
@@ -98,8 +148,15 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Lojas Online.</p>
+                    </div>
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/ecommerce/olfati.png" alt="" />
@@ -110,8 +167,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/ecommerce/nike.png" alt="" />
@@ -122,8 +178,7 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
                                 <img src="./assets/img/produtos/ecommerce/tudopraela.png" alt="" />
@@ -134,15 +189,10 @@ Galery.innerHTML=`
                             </div>
                         </div>
                     </div>
-
-
-                
                 </div>
-
-               
             </div>
+                
         </div>
-
         
     </div>
     

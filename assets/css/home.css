@@ -62,7 +62,19 @@
     justify-content: space-evenly;
 }
 
-
+#beneficio{
+    background-image: url(../img/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#beneficio .card {
+    align-items: center;
+    justify-content: space-around;
+}
 .lojaOnline.container-fluid {
     background-color: #C9DDFB;
 }
