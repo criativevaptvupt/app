@@ -1,14 +1,13 @@
 const Planos = document.getElementById('Planos')
 
 Planos.innerHTML=`
-<div class="sucess container-fluid  pt-5" style="background:#C9DDFB;">
+<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
     <div class="col sucess">
         <h2>Comece agora a impulsionar o seu negócio.</h2>
         </br>
         <p>
-        serviços com design moderno, navegação simples e converta visitantes em clientes fazendo seu negócio crescer.
+            serviços com design moderno, navegação simples e converta visitantes em clientes fazendo seu negócio crescer.
         </p>
-        
     </div>
     <div class="col img">
         <img src="./assets/img/feedback.png" alt="" />

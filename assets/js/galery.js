@@ -1,19 +1,19 @@
 const Galery = document.getElementById('Galery')
 
 Galery.innerHTML=`
-<div class="sucess container-fluid justify-content-center pt-5" style="background:#C9DDFB;">
+<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
     <div class="col sucess">
-        <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
+    <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
         </br>
         <p>
             Profissionais qualificados e focados no crescimento  do seu negócio.
         </p>
-        
     </div>
     <div class="col img">
         <img src="./assets/img/reviews.png" alt="" />
     </div>
 </div>
+
 <div class="container">
     <div class="galery">
         <span class="title"></span>
