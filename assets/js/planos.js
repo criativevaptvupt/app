@@ -3,10 +3,10 @@ const Planos = document.getElementById('Planos')
 Planos.innerHTML=`
 <div class="sucess container-fluid  pt-5" style="background:#C9DDFB;">
     <div class="col sucess">
-        <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
+        <h2>Comece agora a impulsionar o seu negócio.</h2>
         </br>
         <p>
-            Profissionais qualificados e focados </br> no seu crescimento  do seu negócio.
+        serviços com design moderno, navegação simples e converta visitantes em clientes fazendo seu negócio crescer.
         </p>
         
     </div>
@@ -15,9 +15,9 @@ Planos.innerHTML=`
     </div>
 </div>
 <div class="container">
-        <div class="col-content">
+        <div class="col-12 text-center">
             <span class="title"></span>
-            <h2>tenha mais vantagens com nossos planos.</h2>
+            <h2>tenha mais vantagens com </br> nossos planos.</h2>
             <p>
                 Qualidade dedicação e excelencia.
             </p>
@@ -26,7 +26,7 @@ Planos.innerHTML=`
         <div class="col-content-c">
             <div class="col">
                 <div class="card mb-5">
-                    <h3>Social Midia</h3>
+                    <h4>Social Midia</h4>
                     
                     <p>
                     
@@ -36,10 +36,11 @@ Planos.innerHTML=`
                     </br></br>
                     Produção de conteúdo 
                     </br></br>
-                    5 - Storys por semana
+                    Storys por semana
                     </br></br>
-                    5 - Posts carrosel por semana
-
+                    Posts carrosel por semana
+                    </br></br>
+                    Reels por semana
                     </p>
                     
 
@@ -57,7 +58,7 @@ Planos.innerHTML=`
 
             <div class="col">
                 <div class="card mb-5">
-                    <h3>Landind Page</h3>
+                    <h4>Landind Page</h4>
 
                     <p>
                     
@@ -74,12 +75,15 @@ Planos.innerHTML=`
                     Banco de dados
                     </br></br>
                     Formulário de Contato
-
+                    </br></br>
+                    <strong>Plataformas:</strong>
+                    </br>(Shopify, NuvemShop, Wordpress-blog, Wordpress-site institucional, Wordpress-Landing page)
+                    
                     </p>
                     
 
                     <div class="valor">
-                        <h5>$</h5> <h2 class=""valor>1.499,00</h2> 
+                        <h5>$</h5> <h2 class=""valor>799,00</h2> 
                     </div>
 
                     <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Landing+Page/" target="_blank">
@@ -92,7 +96,7 @@ Planos.innerHTML=`
 
             <div class="col">
                 <div class="card">
-                    <h3>E-commerce</h3>
+                    <h4>Loja Online</h4>
                     
                     <p>
                     
@@ -104,6 +108,8 @@ Planos.innerHTML=`
                     </br></br>
                     SSL Segurança criptografada
                     </br></br>
+                    Integração de Pagamento
+                    </br></br>
                     Editor de páginas
                     </br></br>
                     Banco de dados
@@ -113,15 +119,18 @@ Planos.innerHTML=`
                     Google Analytics
                     </br></br>
                     Google Chat-boot IA - Respostas  automáticas
-
+                    </br></br>
+                    <strong>Plataformas:</strong>
+                    </br>(Shopify, NuvemShop, Wordpress-Woocomerce)
+                    
                     </p>
                     
 
                     <div class="valor">
-                        <h5>$</h5> <h2 class=""valor>2.199,00</h2> 
+                        <h5>$</h5> <h2 class=""valor>1.499,00</h2> 
                     </div>
 
-                    <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+um+Ecommerce/" target="_blank">
+                    <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+um+Loja+Online/" target="_blank">
                         Comprar Pacote
                     </a>
                     

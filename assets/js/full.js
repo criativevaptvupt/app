@@ -96,28 +96,28 @@ Full.innerHTML=`
                 <h2>Criamos relacionamentos e experiências digitais que geram resultados.</h2>
             </div>
 
-            <div class="row pt-4">
-                    <div class="col m-2">
+            <div class="row justify-content-center pt-4">
+                    <div class="col-lg-4 col-md-6 m-2">
                         <div class="card">
                             <img src="./assets/img/icons/user-icon.png" class="w-25 " alt="" />
                             <h6>Suporte com nossos profissionais</h6>
                         </div>
                     </div>
 
-                    <div class="col m-2">
+                    <div class="col-lg-4 col-md-6 m-2">
                         <div class="card">
                             <img src="./assets/img/icons/conf-icon.png" class="w-25 " alt="" />
                             <h6>Fácil usabilidade</h6>
                         </div>
                     </div>
                     
-                    <div class="col m-2">
+                    <div class="col-lg-4 col-md-6 m-2">
                         <div class="card">
                             <img src="./assets/img/icons/card-icon.png" class="w-25 " alt="" />
                             <h6>Melhor custo beneficio</h6>
                         </div>
                     </div>
-                    <div class="col m-2">
+                    <div class="col-lg-4 col-md-6 m-2">
                         <div class="card">
                             <img src="./assets/img/icons/cadiado-icon.png" class="w-25 " alt="" />
                             <h6>confiança e segurança</h6>
