@@ -113,27 +113,12 @@
         display: flex;
     }
 
-    /* sessão : .sucess */
-    .sucess.container-fluid {
-        display: flex;
-    }
-    /* .col.sucess {
-        padding: 150px 50px;
-        
-    } */
-    
-
-    /* sessão : .criative */
-    .criate.container-fluid {
-        display: flex;
-    }
     .criate.container-fluid .col img {
         width: 70%;
     }
 
     /* sessão : .social */
     .social.container-fluid {
-        display: flex;
         background-color: #E5E5E5;
     }
     .social.container-fluid .col img {
@@ -141,12 +126,10 @@
     }
     /* sessão : .LojaOnline */
     .lojaOnline.container-fluid {
-        display: flex;
         background-color: #C9DDFB;
     }
     .lojaOnline.container-fluid .col img {
         width: 70%;
     }
     
-
 }

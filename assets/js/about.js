@@ -1,24 +1,27 @@
 const About = document.getElementById('About')
 
 About.innerHTML=`
-<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
-    <div class="col sucess">
-    <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
-        </br>
-        <p>
-            Profissionais qualificados e focados no crescimento  do seu negócio.
-        </p>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
+<div class="container-fluid  align-items-center" style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col sucess">
+                <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
+                </br>
+                <p>
+                Atraia mais visitas, converta mais vendas e se relacione com seu público de maneira inteligente. Conheça as soluções abaixo:
+                </p>
+                
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/sucess.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
 
-<section class="about">
-
-    <div class="container">
-
-        <div class="col-content-c">
+<div class="container pt-5 pb-5">
+    <div class="row">
+        <div class="col-12">
             <span class="title"></span>
             <h2>Sobre  nosso objetivo</h2>
             </br>
@@ -40,11 +43,9 @@ About.innerHTML=`
                 Veja Mais
             </a>
         </div>
-
-        
     </div>
     
+</div>
 
-</section>
 
 `

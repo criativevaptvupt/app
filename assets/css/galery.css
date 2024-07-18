@@ -1,18 +1,22 @@
+#Galery button.btn {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
 #Galery .content-title {
     text-align: center;
 }
-#Galery .card{
-    padding: 20px 20px;
-    margin: 10px 15px;
-    background-color: white;
-    border-radius: 15px;
+.card {
+    padding: 30px 20px;
     border: 0px;
-    box-shadow: 5px 10px 18px #c9c9c9;
-    justify-content: center;
-    max-height: 95%;
-}
-#Galery .card-body {
-    padding: 25px 0px;
+    /* box-shadow: 5px 10px 18px #c9c9c9; */
+    /* height: 100%; */
+    /* justify-content: space-evenly; */
 }
 #Galery .card-header {
     padding: 0px;
@@ -25,8 +29,15 @@
     display: block;
     text-align: center;
 }
-#Galery .container {
+/* #Galery .container {
     padding: 100px 10px 50px 10px;
+} */
+ #Galery .modal-body .container  {
+    padding: 0px 0px 0px 0px !important;
+}
+.modal-body {
+    margin: 0px;
+    padding: 0px;
 }
 .galery span.title::before {
     width: 300px;
@@ -40,5 +51,21 @@
 }
 #Galery .card-body {
     text-align: left;
+    padding: 10px 0px 0px 0px;
+}
+#Galery .card-body p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+#Galery.card .footer {
+    display: flex;
+}
+#Galery button.btn.btn-primary {
+    border: 0px;
+    background-color: transparent;
+    color: blue;
+    padding: 0px;
+    display: block;
 }
 

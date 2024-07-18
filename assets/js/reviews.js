@@ -2,7 +2,7 @@ const Reviews = document.getElementById('Reviews')
 
 Reviews.innerHTML=`
   
-    <div class="container">
+<div class="container pt-5 pb-5">
     <h2>clientes felizes e satisfeitos com nossos produtos</h2>
     
     <div class="">
@@ -87,6 +87,6 @@ Reviews.innerHTML=`
             <div class="swiper-pagination"></div>
         </div>
     </div>
-
+</div>
 
 `;

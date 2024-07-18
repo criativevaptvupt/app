@@ -3,7 +3,7 @@ const Footer = document.getElementById('Footer')
 Footer.innerHTML=`
 <div class="footer">
     <div class="container">
-        <div class="text-center">
+        <div class="text-center pt-5">
             
             <img src="./assets/img/logo-white.png" alt="" />
             </br>
@@ -13,7 +13,7 @@ Footer.innerHTML=`
             </div>
         </div>   
 
-        <div class="m-5">
+        <div class="pb-5">
             
         <ul class="nav footer">
 

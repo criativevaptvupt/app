@@ -2,68 +2,80 @@ const Landingpage = document.getElementById('Landingpage')
 
 Landingpage.innerHTML=`
 
-<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
-    <div class="col sucess">
-        <h2>Aumente seu faturamento ao usar um site inteligente e criativo.</h2>
-        </br>
-        <p>
-            Apresentamos de forma ágil todos os seus serviços com design moderno, navegação simples e rápida.
-        </p>
-        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Landing+Page/">
-            Comprar Agora
-        </a>
-        
-    </div>
-    <div class="col img">
-        <img src="./assets/img/criate.png" alt="" />
+<div class="container-fluid pt-5" style="background:#C9DDFB;">
+    <div class="container align-items-center pt-5">
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <h2>Aumente seu faturamento ao usar um site inteligente e criativo.</h2>
+                </br>
+                <p>
+                    Apresentamos de forma ágil todos os seus serviços com design moderno, navegação simples e rápida.
+                </p>
+                <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Landing+Page/">
+                    Comprar Agora
+                </a>
+                
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/criate.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
-<div class="criate container">
-    <div class="row  align-items-center justify-content-center">
-        <div class="col-md-6">
-            <h2>Principais vantagens do site Inteligente</h2>
-            </br>
-            <p>O objetivo de um site é envolver-se com seus visitantes e comunicar uma mensagem 
-            específica e um site one page oferece maiores oportunidades de fazer exatamente isso.</p>
-        </div>
-        <div class="col-md-6">
-            <div class="m-2">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0  align-items-center justify-content-center">
-                    <div class="col-md-4">
-                        <img src="./assets/img/icons/icons-relogio.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <h5 class="card-title">recursos profissionais para o seu negócio só aqui na Critive vapt vUPT</h5>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="m-2">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0   align-items-center justify-content-center">
-                    <div class="col-md-4">
-                        <img src="./assets/img/icons/icon-mobile.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <h5 class="card-title">Navegação intuitiva, simples e rápida</h5>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
+<div class="container-fluid"  style="background:#E5E5E5;">
+    <div class="container pt-5 pb-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Principais vantagens do site Inteligente</h2>
+                </br>
+                <p>O objetivo de um site é envolver-se com seus visitantes e comunicar uma mensagem 
+                específica e um site one page oferece maiores oportunidades de fazer exatamente isso.</p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="m-2">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0  align-items-center justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/img/icons/icons-relogio.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">recursos profissionais para o seu negócio só aqui na Critive vapt vUPT</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0   align-items-center justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/img/icons/icon-mobile.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Navegação intuitiva, simples e rápida</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div id='service' class="services container-fluid">
-    <div class="container">       
-        <div class="content-title">
-            <h6>Landing pages e Sites Institucionais</h6>
-            <h2>Estratégias em Comunição</h2>
+
+<div class="container-fluid">
+    <div class="container pt-5 pb-5"> 
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6">
+                <div class="content-title">
+                    <h6>Landing pages e Sites Institucionais</h6>
+                    <h2>Estratégias em Comunição</h2>
+                </div>
+            </div>
         </div>
         <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -104,24 +116,13 @@ Landingpage.innerHTML=`
         </div>
     </div>
 </div>
-<div class="criate container-fluid align-items-center">
-    <div class="col img">
-        <img src="./assets/img/criative-vaptvupt.png" alt="" />
-    </div>
-    <div class="col sucess">
-        <h2>Crie aqui um site para o seu negócio.</h2>
-        </br>
-        <h6>Por que fazer um site ?</h6>
-        <p> Um site bem projetado e funcional pode servir como o cartão 
-        de visitas online da sua empresa, atraindo clientes e transmitindo profissionalismo. 
-        é importante considerar o design, a usabilidade e a otimização para mecanismos de busca.
-        e aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
-    </div>
-</div>
-<div class="services container-fluid">
-    <div class="container">       
-        <div class="content-title">
-            <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+
+<div class="container-fluid services">
+    <div class="container pt-5 pb-5">   
+        <div class="row">
+            <div class="content-title">
+                <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+            </div>
         </div>
         <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -150,26 +151,48 @@ Landingpage.innerHTML=`
                         </div>
                     </div>
                 </div>
-                
         </div>
-        
     </div>
 </div>
-<div class="sucess container-fluid  align-items-center" style="background:#C9DDFB;">
-    
-    <div class="col sucess">
-        <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
-        </br>
-        
-        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Landing+Page/">
-            Comprar Agora
-        </a>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
+
+
+<div class="container-fluid">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col img">
+                <img src="./assets/img/criative-vaptvupt.png" alt="" />
+            </div>
+            <div class="col sucess">
+                <h2>Crie aqui um site para o seu negócio.</h2>
+                </br>
+                <h6>Por que fazer um site ?</h6>
+                <p> Um site bem projetado e funcional pode servir como o cartão 
+                de visitas online da sua empresa, atraindo clientes e transmitindo profissionalismo. 
+                é importante considerar o design, a usabilidade e a otimização para mecanismos de busca.
+                e aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
+            </div>
+        </div>
     </div>
 </div>
-<div class="container text-center">
+
+<div class="sucess container-fluid" style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
+                </br>
+                
+                <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Landing+Page/">
+                    Comprar Agora
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/sucess.png" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container pt-5 pb-5 text-center">
     <div class="row">
         <h2 class="pb-3">FAQ </h2>
         </br>

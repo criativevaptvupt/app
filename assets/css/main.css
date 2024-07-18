@@ -30,36 +30,6 @@
     }
 
 
- #Ai {
-        background-color: white;
-        min-height: 530px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right 130px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-    }
-    #Ai .container{
-        width: 90%;
-        margin: 50px;
-        align-items: center;
-        display: flex;
-    }
-    
-    #Ebook .valor-content {
-        width: 105px;
-    }
-    #Ebook .valor{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #Ebook .valor-content {
-        width: 105px;
-        display: none;
-    }
-
     #Galery .overlaygallery {
         background: #000000c7;
         position: absolute;
@@ -88,12 +58,6 @@
     #Galery .card-header img {
         width: 100%;
         border-radius: 15px;
-    }
-
-    .tempo {
-        padding: 50px 20px;
-        display: block;
-        text-align: center;
     }
 
     
@@ -129,51 +93,7 @@
         display: block;
     }
 
-    #Contato {
-        background-color: #C9DDFB;
-    }
-    .contact .container {
-        display: block;
-    }
-    #Contato form input {
-        background-color: #F5F5F5;
-        padding: 13px;
-        width: 100%;
-        margin: 5px 0px;
-        border: 0px;
-        border-radius: 20px;
-    }
-    #Contato form .msg {
-        background-color: #F5F5F5;
-        padding: 13px;
-        width: 100%;
-        border: 0px;
-        border-radius: 20px;
-    }
-    #Contato form button {
-        border: 1px solid;
-        width: 150px;
-        display: inline-flex;
-        height: 40px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        background-image: linear-gradient(to right top, #e58bf8, #67effe);
-        font-weight: 600 !important;
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        border: 0px;
-        box-shadow: 1px 1px 3px #8886b7cf;
-        opacity: 0.9;
-        transition: .3s;
-    }
-    #Contato .col-content {
-        width: 80%;
-    }
-    #Contato .col-content .content-text{
-        padding: 0px 0px 50px;
-    }
-
+    
 
 
 @media (min-width:768px) {
@@ -227,66 +147,6 @@
         font-size: 14px;
     }
     
-
-
-
-    #Ai {
-        background-image: url(../img/ai.png);
-        min-height: 430px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        text-align: start;
-        justify-content: center;
-        display: flex;
-    }
-
-
-
-
-    #Ebook{
-        background-image: url(../img/ebook.png);
-        min-height: 330px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        text-align: start;
-        justify-content: center;
-        display: flex;
-    }
-    #Ebook .container {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    #Ebook .valor-content {
-        width: 105px;
-    }
-    #Ebook .valor{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #Ebook .valor-content {
-        width: 105px;
-        display: block;
-    }
-    
-    .tempo {
-        padding: 50px;
-        display: block;
-        text-align: center;
-    }
-    .tempo span.title::before {
-        width: 300px;
-        height: 200px;
-        left: 20%;
-        z-index: -1;
-    }
-    
-    
-
     #About .container {
         display: flex;
         justify-content: space-around;
@@ -304,62 +164,12 @@
 
 
     #Reviews {
-        padding: 50px 60px;
         display: block;
         text-align: center;
     }
     .comentarios {
         display: flex;
         justify-content: center;
-    }
-
-
-    
-
-    #Contato {
-        background-color: #C9DDFB;
-        padding: 50px 0px 50px 0px;
-    }
-    .contact .container {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 50px;
-    }
-    #Contato form input {
-        background-color: #F5F5F5;
-        padding: 13px;
-        width: 100%;
-        margin: 5px 0px;
-        border: 0px;
-        border-radius: 20px;
-    }
-    #Contato form .msg {
-        background-color: #F5F5F5;
-        padding: 13px;
-        width: 100%;
-        border: 0px;
-        border-radius: 20px;
-    }
-    #Contato form button {
-        border: 1px solid;
-        width: 150px;
-        display: inline-flex;
-        height: 40px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        background-image: linear-gradient(to right top, #e58bf8, #67effe);
-        font-weight: 600 !important;
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        border: 0px;
-        box-shadow: 1px 1px 3px #8886b7cf;
-        opacity: 0.9;
-        transition: .3s;
-    }
-    #Contato .col-content {
-        width: 30%;
     }
 
 }

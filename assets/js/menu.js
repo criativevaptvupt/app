@@ -26,19 +26,15 @@ Menu.innerHTML=`
                     Produtos
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="landingpage.html">Landing page</a></li>
-                    <li><a class="dropdown-item" href="loja.html">Loja Online</a></li>
+                    <li><a class="dropdown-item" href="landingpage.html">Landing page e Sites</a></li>
+                    <li><a class="dropdown-item" href="loja.html">Lojas Online</a></li>
                     <li><a class="dropdown-item" href="social.html">Social Midia</a></li>
-                    <li><a class="dropdown-item" href="#">Suporte</a></li>
+                    
                   </ul>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="galeria.html">Galeria</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="planos.html">Planos</a>
             </li>
 
             <li class="nav-item">

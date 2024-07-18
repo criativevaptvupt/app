@@ -2,7 +2,7 @@ const faq = document.getElementById('faq')
 
 faq.innerHTML=`
 
-<div class="container text-center">
+<div class="container pt-5 pb-5 text-center">
     <div class="row">
         <h2 class="pb-3">FAQ </h2>
         </br>

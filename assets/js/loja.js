@@ -2,24 +2,29 @@ const Loja = document.getElementById('Loja')
 
 Loja.innerHTML=`
 
-<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
-    <div class="col sucess">
-        <h2>Configurando sua loja online.</h2>
-        </br>
-        <p>
-            Impulsione seu negócio e aumente seu faturamento com uma loja virtual vendendo online todos os dias.
-        </p>
-        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+um+Loja+Online/" target="_blank">
-            Comprar Agora
-        </a>
-        
-    </div>
-    <div class="col img">
-        <img src="./assets/img/lojaOnline.png" alt="" />
+<div class="sucess container-fluid pt-5" style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Configurando sua loja online.</h2>
+                </br>
+                <p>
+                    Impulsione seu negócio e aumente seu faturamento com uma loja virtual vendendo online todos os dias.
+                </p>
+                <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+um+Loja+Online/" target="_blank">
+                    Comprar Agora
+                </a>
+                
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/lojaOnline.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
-<div class="criate container">
-    <div class="row  align-items-center justify-content-center">
+
+<div class="container pt-5 pb-5">
+    <div class="row align-items-center">
         <div class="col-md-6">
             <h2>Principais vantagens da Loja Virtual</h2>
             </br>
@@ -59,8 +64,8 @@ Loja.innerHTML=`
 
 </div>
 
-<div id='service' class="services container-fluid">
-    <div class="container">       
+<div id='service' class="container-fluid services">
+    <div class="container pt-5 pb-5">       
         <div class="content-title">
             <h6>Lojas e E-commerces</h6>
             <h2>Estratégias em Vendas Online</h2>
@@ -104,25 +109,33 @@ Loja.innerHTML=`
         </div>
     </div>
 </div>
-<div class="criate container-fluid align-items-center">
-    <div class="col img">
-        <img src="./assets/img/criative-vaptvupt.png" alt="" />
-    </div>
-    <div class="col sucess">
-        <h2>Crie aqui sua loja de sucesso.</h2>
-        </br>
-        <h6>Por que fazer uma Loja online?</h6>
-        <p>Considerações importantes incluem facilidade de uso, recursos de gerenciamento de inventário, 
-        opções de pagamento e integração com sistemas de entrega. O design e layout da sua loja online 
-        desempenham um papel fundamental na atração e retenção de clientes.  A facilidade de navegação e 
-        a experiência do usuário são prioridades durante a criação do design,
-         aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
+
+<div class="container-fluid align-items-center">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/criative-vaptvupt.png" alt="" />
+            </div>
+            <div class="col-md-6">
+                <h2>Crie aqui sua loja de sucesso.</h2>
+                </br>
+                <h6>Por que fazer uma Loja online?</h6>
+                <p>Considerações importantes incluem facilidade de uso, recursos de gerenciamento de inventário, 
+                opções de pagamento e integração com sistemas de entrega. O design e layout da sua loja online 
+                desempenham um papel fundamental na atração e retenção de clientes.  A facilidade de navegação e 
+                a experiência do usuário são prioridades durante a criação do design,
+                aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
+            </div>
+        </div>
     </div>
 </div>
+
 <div class="services container-fluid">
-    <div class="container">       
-        <div class="content-title">
-            <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+    <div class="container pt-5 pb-5">      
+        <div class="row align-items-center">
+            <div class="content-title">
+                <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+            </div>
         </div>
         <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -164,22 +177,25 @@ Loja.innerHTML=`
         
     </div>
 </div>
-<div class="sucess container-fluid  align-items-center" style="background:#C9DDFB;">
-    
-    <div class="col sucess">
-        <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
-        </br>
-        
-        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Loja+Oline/">
-            Comprar Agora
-        </a>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
+<div class="container-fluid" style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
+                </br>
+                
+                <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Loja+Oline/">
+                    Comprar Agora
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/sucess.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
 <div class="container-fluid text-center"  style="background:#E5E5E5;">
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="row">
             <h2 class="pb-3">FAQ </h2>
             </br>

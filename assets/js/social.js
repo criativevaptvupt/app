@@ -2,22 +2,27 @@ const Social = document.getElementById('Social')
 
 Social.innerHTML=`
 
-<div class="sucess container-fluid align-items-center pt-5" style="background:#C9DDFB;">
-    <div class="col sucess">
-        <h2>Mídias Sociais
-            Conectar, envolver e se relacionar.</h2>
-        </br>
-        <p>
-            Posicionamos e atraímos o público ideal, transmitindo as mensagens do seu negócio de maneira assertiva.
-        </p>
-        
-    </div>
-    <div class="col img">
-        <img src="./assets/img/social.png" alt="" />
+<div class="container-fluid" style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Mídias Sociais
+                    Conectar, envolver e se relacionar.</h2>
+                </br>
+                <p>
+                    Posicionamos e atraímos o público ideal, transmitindo as mensagens do seu negócio de maneira assertiva.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/social.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
-<div class="criate container">
-    <div class="row  align-items-center justify-content-center">
+
+<div class="container pt-5 pb-5">
+    <div class="row align-items-center">
         <div class="col-md-6">
             <h2>Principais vantagens da Gestão de Redes Sociais</h2>
             </br>
@@ -54,127 +59,145 @@ Social.innerHTML=`
             </div>
         </div>
     </div>
-
 </div>
 
-<div id='service' class="services container-fluid">
-    <div class="container">       
-        <div class="content-title">
-            <h6>Designs para Social Midia</h6>
-            <h2>Estratégias em midias sociais</h2>
+<div id='service' class="container-fluid services">
+    <div class="container pt-5 pb-5">   
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12">
+                <div class="content-title">
+                    <h6>Designs para Social Midia</h6>
+                    <h2>Estratégias em midias sociais</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="content-services">
+                        <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/FEED-ESQUINA.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para loja fisica, 
+                                    loja de roupas e equipamentos variados, 
+                                    Esquina das Modas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/feedDoloresAtelie.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para Ateliê fisico, 
+                                loja de roupas e uniformes sob medida Esportivos,  Dolores Ateliê.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/img/produtos/Social-Midia/calçadoOlympikus.png" alt="" />
+                            </div>    
+                            <div class="card-body">
+                                <h6>Social Midia</h6>
+                                <p>Design e Gestão das Midias sociais para loja fisica, 
+                                loja de roupas e calçados,  O Calçadão.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>        
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-ceter">
+                <img class="w-75" src="./assets/img/criative-vaptvupt.png" alt="" />
+            </div>
+            <div class="col-md-6">
+                <h2>Utilizando redes sociais para promover o seu negócio.</h2>
+                </br>
+                <h6>Por que contratar uma empresa de estratégia em midias sociais ?</h6>
+                <p>É essencial criar e manter uma presença consistente e engajada nas plataformas 
+                de mídia social relevantes ao seu público-alvo. a criação de conteúdo relevante e a 
+                interação ativa com os seguidores são estratégias eficazes para construir e expandir a 
+                comunidade online da sua marca,
+                e aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
+            </div>
         </div>
-        <div class="content-services">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="./assets/img/produtos/Social-Midia/FEED-ESQUINA.png" alt="" />
-                        </div>    
-                        <div class="card-body">
-                            <h6>Social Midia</h6>
-                            <p>Design e Gestão das Midias sociais para loja fisica, 
-                                loja de roupas e equipamentos variados, 
-                                Esquina das Modas.</p>
-                        </div>
-                    </div>
-                </div>
+    </div>
+</div>
 
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="./assets/img/produtos/Social-Midia/feedDoloresAtelie.png" alt="" />
-                        </div>    
-                        <div class="card-body">
-                            <h6>Social Midia</h6>
-                            <p>Design e Gestão das Midias sociais para Ateliê fisico, 
-                            loja de roupas e uniformes sob medida Esportivos,  Dolores Ateliê.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col">
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="./assets/img/produtos/Social-Midia/calçadoOlympikus.png" alt="" />
-                        </div>    
-                        <div class="card-body">
-                            <h6>Social Midia</h6>
-                            <p>Design e Gestão das Midias sociais para loja fisica, 
-                            loja de roupas e calçados,  O Calçadão.</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-<div class="criate container-fluid align-items-center">
-    <div class="col img">
-        <img src="./assets/img/criative-vaptvupt.png" alt="" />
-    </div>
-    <div class="col sucess">
-        <h2>Utilizando redes sociais para promover o seu negócio.</h2>
-        </br>
-        <h6>Por que contratar uma empresa de estratégia em midias sociais ?</h6>
-        <p>É essencial criar e manter uma presença consistente e engajada nas plataformas 
-        de mídia social relevantes ao seu público-alvo. a criação de conteúdo relevante e a 
-        interação ativa com os seguidores são estratégias eficazes para construir e expandir a 
-        comunidade online da sua marca,
-        e aqui na Criative Vapt Vupt, você tem todos esses beneficios.</p>
-    </div>
-</div>
-<div class="services container-fluid">
-    <div class="container">       
-        <div class="content-title">
-            <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+<div class="container-fluid services">
+    <div class="container pt-5 pb-5">     
+        <div class="row">
+            <div class="content-title">
+                <h2>Conectamos pessoas com a sua marca através da comunicação digital.</h2>
+            </div>
         </div>
         <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6>Planejamento</h6>
-                            <p>Montamos um cronograma de postagens de acordo com o perfil do seu negócio e objetivos da sua marca.</p>
-                        </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Planejamento</h6>
+                        <p>Montamos um cronograma de postagens de acordo com o perfil do seu negócio e objetivos da sua marca.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6>Publicação</h6>
-                            <p>Todas as publicações terão um design exclusivo e dentro de uma matriz alinhada com o seu negócio.</p>
-                        </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Publicação</h6>
+                        <p>Todas as publicações terão um design exclusivo e dentro de uma matriz alinhada com o seu negócio.</p>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6>Engajamento</h6>
-                            <p>Através de publicações com conteúdos ricos, geramos mais engajamento e interações com sua marca.</p>
-                        </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Engajamento</h6>
+                        <p>Através de publicações com conteúdos ricos, geramos mais engajamento e interações com sua marca.</p>
                     </div>
                 </div>
+            </div>
         </div>
         
     </div>
 </div>
 
-<div class="social container-fluid align-items-center"  style="background:#C9DDFB;">
-    
-    <div class="col sucess">
-        <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
-        </br>
-        
-        
-        <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Social+Midia/">
-            Comprar Agora
-        </a>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
+<div class="container-fluid"  style="background:#C9DDFB;">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
+                </br>
+                
+                
+                <a class="btn primary" href="https://wa.me/5512981021517?text=Quero+comprar+uma+Social+Midia/">
+                    Comprar Agora
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/sucess.png" alt="" />
+            </div>
+        </div>
     </div>
 </div>
+
 <div class="container-fluid text-center" style="background:#E5E5E5;">
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="row">
             <h2 class="pb-3">FAQ </h2>
             </br>

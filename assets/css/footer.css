@@ -3,14 +3,14 @@
     display: flex;
     justify-content: center;
     color: white;
-    padding: 50px;
 }
-.footer .container {
-    display: block;
-    
-}
+
 .footer  ul.nav.footer {
     display: block;
+}
+.footer li.nav-item {
+    justify-content: center;
+    display: flex;
 }
 .footer  a.nav-link {
     color: white;
@@ -28,10 +28,7 @@
     .footer{
         display: block;
     }
-    .footer .container {
-        justify-content: space-around;
-        align-items: center;
-    }
+    
     .footer  ul.nav.footer {
         display: flex;
     }

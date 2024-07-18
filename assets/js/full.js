@@ -2,7 +2,7 @@ const Full = document.getElementById('Full')
 
 Full.innerHTML=`
 <div class="full">
-    <div class="container">
+    <div class="container pt-5 pb-5">
         <div class="content-text">
             <h3>Criative</h3>
             <h1>Vapt Vupt</h1>
@@ -19,23 +19,8 @@ Full.innerHTML=`
     </div>
 </div>
 
-<div class="sucess container-fluid  align-items-center" style="background:#C9DDFB;">
-    
-    <div class="col sucess">
-        <h2>Garanta o sucesso a longo prazo da sua Empresa.</h2>
-        </br>
-        <p>
-        Atraia mais visitas, converta mais vendas e se relacione com seu público de maneira inteligente. Conheça as soluções abaixo:
-        </p>
-        
-    </div>
-    <div class="col img">
-        <img src="./assets/img/sucess.png" alt="" />
-    </div>
-</div>
-
 <div id='service' class="services container-fluid">
-    <div class="container">       
+    <div class="container pt-5 pb-5">       
         <div class="content-title">
             <h2>Soluções para conquistar novos clientes e potencializar  suas vendas</h2>
         </div>
@@ -69,55 +54,66 @@ Full.innerHTML=`
         </div>
     </div>
 </div>
-
-
-
 <div class="criate container-fluid  align-items-center">
-    
-    <div class="col sucess">
-        <h2>Criando um site para o seu negócio.</h2>
-        </br>
-        <p>Conectamos pessoas com a sua marca através da comunicação digital gerando resultados extraordinários no seu negócio.</p>
-        
-        <a class="btn primary" href="landingpage.html">
-            Ver Mais
-        </a>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/criate.png" alt="" />
+    <div class="container mt-5">
+        <div class="row align-items-center"> 
+            <div class="col-md-6">
+                <h2>Criando um site para o seu negócio.</h2>
+                </br>
+                <p>Conectamos pessoas com a sua marca através da comunicação digital gerando resultados extraordinários no seu negócio.</p>
+                
+                <a class="btn primary" href="landingpage.html">
+                    Ver Mais
+                </a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="w-75" src="./assets/img/criate.png" alt="" />
+            </div>
+        </div>  
+    </div>      
+</div>
+<div id="Galery"></div>
+<div class="container pt-5 pb-5 text-center">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="pb-3">O sucesso de amanhã começa hoje.</h2>
+            </br>
+            <p>
+                recursos profissionais para o seu negócio só aqui na Criative vapt vUPT.
+            </p>
+        </div>
     </div>
 </div>
-
 <div id="beneficio" class="beneficios container-fluid">
-    <div class="container">  
+    <div class="container mt-5 mb-5">  
         <div class="row">    
 
-            <div class="content-title">
+            <div class="col-12">
                 <h2>Criamos relacionamentos e experiências digitais que geram resultados.</h2>
             </div>
 
-            <div class="row justify-content-center pt-4">
-                    <div class="col-lg-4 col-md-6 m-2">
+            <div class="row col pt-4">
+                    <div class="p-2 col-lg-3 col-md-6 col-xs-12">
                         <div class="card">
                             <img src="./assets/img/icons/user-icon.png" class="w-25 " alt="" />
                             <h6>Suporte com nossos profissionais</h6>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 m-2">
+                    <div class="p-2 col-lg-3 col-md-6 col-xs-12">
                         <div class="card">
                             <img src="./assets/img/icons/conf-icon.png" class="w-25 " alt="" />
                             <h6>Fácil usabilidade</h6>
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 m-2">
+                    <div class="p-2 col-lg-3 col-md-6 col-xs-12">
                         <div class="card">
                             <img src="./assets/img/icons/card-icon.png" class="w-25 " alt="" />
                             <h6>Melhor custo beneficio</h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 m-2">
+                    <div class="p-2 col-lg-3 col-md-6 col-xs-12">
                         <div class="card">
                             <img src="./assets/img/icons/cadiado-icon.png" class="w-25 " alt="" />
                             <h6>confiança e segurança</h6>
@@ -128,48 +124,14 @@ Full.innerHTML=`
     </div>
 </div>
 
-<div class="lojaOnline container-fluid  align-items-center">
-    <div class="col sucess">
-        <h2>Venda o tempo todo e lucre com as soluções certas.</h2>
-        </br>
-        <p>
-            Crie sua loja virtual conosco e venda todo tipo de produto sem estoque. 
-        </p>
-        <a class="btn primary" href="loja.html">
-            Ver Mais
-        </a>
-        
-    </div>
-    <div class="col img">
-        <img src="./assets/img/lojaOnline.png" alt="" />
-    </div>
-</div>
 
-<div class="container text-center">
-    <div class="row">
-        <h2 class="pb-3">O sucesso de amanhã começa hoje.</h2>
-        </br>
-        <p>
-            recursos profissionais para o seu negócio só aqui na Critive vapt vUPT
-        </p>
-    </div>
-</div>
 
-<div class="social container-fluid align-items-center">
-    
-    <div class="col sucess">
-        <h2>Tenha facilidade na comunicação com seus clientes e saia na frente.</h2>
-        </br>
-        <p>Posicionamos e atraímos o público ideal, transmitindo as mensagens do seu negócio de maneira assertiva.</p>
-        
-        <a class="btn primary" href="social.html">
-            Ver Mais
-        </a>
-    </div>
-    <div class="col img">
-        <img src="./assets/img/social.png" alt="" />
-    </div>
-</div>
+
+
+
+
+
+
 
 
 `
